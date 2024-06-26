@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "CommonJS"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/controllers/clients.ts.old",
+    "src/models/coaches.ts.old",
+    "src/models/clients.ts.old",
+    "src/models/coaches.js",
+    "src/models/clients.js",
+    "src/models/users.temp",
+    "src/models/chats.ts.temp",
+    "src/models/baseUser.old"
+  ],
+  "exclude": ["node_modules", "*.temp"]
+
+  // "compilerOptions": {
+  //   "module": "commonjs",
+  //   "esModuleInterop": true,
+  //   "target": "ES6",
+  //   "moduleResolution": "node",
+  //   "sourceMap": true,
+  //   "outDir": "./dist",
+  //   "emitDecoratorMetadata": true,
+  //   "experimentalDecorators": true
+  // "strict": true
+  // },
+  // "lib": ["es2015"]
+}
